@@ -14,7 +14,7 @@ parser.add_argument('--pretrain_path', type=str, default='', help='Path for savi
 parser.add_argument('--beta', default=0.1, type=float, help='coefficient of subspace affinity loss')
 ```
 # Implementation
-Run the code using the following command:
+The `requirements.txt` is provided. Run the code using the following command:
 ```python
 # --dataset: default='REUTERS', choices=['MNIST', 'FashionMNIST', 'CIFAR10', 'CIFAR100', 'STL10', 'REUTERS']
 python EDESC_main.py
